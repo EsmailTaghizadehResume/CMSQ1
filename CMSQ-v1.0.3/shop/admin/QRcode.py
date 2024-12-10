@@ -3,7 +3,7 @@ import qrcode
 from PIL import Image, ImageDraw, ImageFont
 
 class QRCodeGenerator:
-    def __init__(self, font_path="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"):
+    def __init__(self, font_path="./DejaVuSans-Bold.ttf"):
         self.font_path = font_path
 
     def create_qr_code(self, data, text):
